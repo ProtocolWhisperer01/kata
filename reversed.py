@@ -21,3 +21,12 @@ def reverse_seq(n):
 		num_list.append(i) # For each iteration/loop add a number to the list.
 	num_list.reverse() # Now reverse the list last #no to be first and first to be last.
 	return num_list
+
+
+'''
+A clever that i saw when reviewing was using:
+	range(10,0,-1)
+	
+	Basically the you are starting from 10 till 1 but not to 0 and in that way you will have to decrement by 1, hence the step -1.
+	
+'''
