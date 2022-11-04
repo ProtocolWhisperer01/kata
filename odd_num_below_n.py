@@ -18,7 +18,7 @@ def odd_count(n):
 			continue	
 	return count
 
-# So with the above i got the count quite easily for a smaller range however a bigger range is quite interesting.
+# So with the above i got the count quite easily for a smaller range however a bigger range is quite interesting, ie i got a time out error.
 # After search the interwebs the actual work aroun was to use floored division which is quite clever, coz think about it.
 '''
 	if n is 21 and you do 21//2 you will get 10 and 10 in turn is the count.
@@ -27,3 +27,4 @@ def odd_count(n):
 '''
 def odd_num_count(n):
 	return n // 2
+	return len(range(1,n,2)) # this is also a honorable mention.
